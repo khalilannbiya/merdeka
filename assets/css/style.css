@@ -37,11 +37,14 @@ body {
     justify-content: center;
   }
   .button .btn-next {
-    text-decoration: none;
     color: #fdfdfd;
+    font-size: 1.3em;
   }
   .button .btn-next:hover {
     opacity: 0.9;
+  }
+  .button a {
+    text-decoration: none;
   }
   .button {
     display: flex;
