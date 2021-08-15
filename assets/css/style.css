@@ -43,7 +43,7 @@ body {
   .button {
     display: flex;
     justify-content: center;
-    margin-top: 15em;
+    margin: 15em 0 15em 0;
   }
   #typedjs p {
     margin: 0 20px;
