@@ -54,4 +54,18 @@ body {
     margin-top: 20px;
     position: absolute;
   }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+  }
+  .main div {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 8px 8px 17px #c8c8c8, -8px -8px 17px #ffffff;
+    width: 80%;
+    height: 15em;
+    margin-top: 10px;
+  }
 }
