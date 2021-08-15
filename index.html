@@ -11,10 +11,32 @@
     <title>Indonesia Merdeka</title>
 </head>
 <body>
-<div>
+<div class="main">
     <div class="merah">
-        <div></div>
+        <div><img src="assets/image/garuda.png" alt="" width="296px"></div>
     </div>
-</div>   
+    <div>
+        <div class="text">
+            <h1>Dirgahayu Indonesia</h1>
+            <h1>Ke-76</h1>
+        </div>
+    </div>
+    <div id="typedjs">
+        <p><span id="typed"></span></p>
+    </div>
+    <div class="button">
+        <a href="puisi.html"><p class="btn-next">Lihat Yuk</p></a>
+    </div>
+</div> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+
+<script type="text/javascript">
+    var typed = new Typed("#typed", {
+        strings: ["Indonesia bukan sekedar nama. Ada kenangan, cinta, luka di sana, ada tempat berpetualang dan pulang. Ada saya dan kau yang mencoba memperbaiki, dengan cara kita yang sederhana dan tak kenal lelah. Dirgahayu, Indonesiaku!"],
+        typeSpeed: 90,
+        startDelay: 90,
+        loop: true
+    });
+</script>  
 </body>
 </html>
