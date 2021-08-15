@@ -74,4 +74,52 @@ body {
     height: 15em;
     margin-top: 10px;
   }
+
+  .atten {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .atten .play {
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: inset 7px 7px 5px #e0e0e0, inset -7px -7px 5px #ffffff;
+    width: 80%;
+    height: 20em;
+    margin-top: 3em;
+    padding: 30px;
+    text-align: center;
+  }
+  .atten .lambang {
+    padding: 30px;
+    background: #f9f9f9;
+    box-shadow: inset 7px 7px 5px #e0e0e0, inset -7px -7px 5px #ffffff;
+    border-radius: 50%;
+    width: 80%;
+    height: 19em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+  }
+  .play h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .play p {
+    margin-top: 1em;
+    font-size: 1.3em;
+  }
+  .play button {
+    background: linear-gradient(90deg, #f80000 0%, #680404 97.42%);
+    color: #fdfdfd;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+  }
 }
