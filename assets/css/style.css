@@ -36,9 +36,12 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .button a {
+  .button .btn-next {
     text-decoration: none;
     color: #fdfdfd;
+  }
+  .button .btn-next:hover {
+    opacity: 0.9;
   }
   .button {
     display: flex;
