@@ -35,11 +35,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .button .btn-next {
     color: #fdfdfd;
     font-size: 1.3em;
   }
+
   .button .btn-next:hover {
     opacity: 0.9;
   }
@@ -59,20 +58,6 @@ body {
     font-weight: 500;
     margin-top: 20px;
     position: absolute;
-  }
-  .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
-  }
-  .main div {
-    background-color: #fafafa;
-    border-radius: 10px;
-    box-shadow: 8px 8px 17px #c8c8c8, -8px -8px 17px #ffffff;
-    width: 80%;
-    height: 15em;
-    margin-top: 10px;
   }
 
   .atten {
@@ -121,5 +106,82 @@ body {
     padding: 10px;
     width: 80%;
     height: 50px;
+  }
+
+  /* ======================Puisi=================== */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+  }
+  .main div {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 8px 8px 17px #c8c8c8, -8px -8px 17px #ffffff;
+    width: 80%;
+    margin-top: 20px;
+    padding: 30px;
+  }
+  .main .text {
+    overflow: scroll;
+  }
+  .text h2 {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .text p {
+    margin-top: 15px;
+  }
+
+  /* .main div:nth-child(3),
+  .main div:nth-child(5),
+  .main div:nth-child(11),
+  .main div:nth-child(21),
+  .main div:nth-child(23),
+  .main div:nth-child(25) {
+    height: 20em;
+  }
+  .main div:nth-child(7) {
+    height: 12em;
+  }
+  .main div:nth-child(9),
+  .main div:nth-child(17) {
+    height: 23em;
+  }
+  .main div:nth-child(15) {
+    height: 27em;
+  } */
+  .main .gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .main .gambar img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .btn-finish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0;
+  }
+  .btn-selesai {
+    background: linear-gradient(90deg, #f80000 0%, #680404 97.42%);
+    color: #fdfdfd;
+    text-decoration: none;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+  .btn-finish button {
+    font-size: 1em;
+
+    width: 10em;
   }
 }
