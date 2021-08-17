@@ -14,7 +14,7 @@ body {
 }
 .merah {
   background-image: linear-gradient(#f80000, #680404);
-  height: 270px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -30,7 +30,7 @@ body {
   margin-top: 1em;
   width: 100%;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.6em;
   font-weight: 500;
   position: absolute;
 }
@@ -71,8 +71,8 @@ body {
   background: #f9f9f9;
   box-shadow: inset 7px 7px 5px #e0e0e0, inset -7px -7px 5px #ffffff;
   border-radius: 50%;
-  width: 30%;
-  height: 17em;
+  width: 20%;
+  height: 16em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,7 +109,7 @@ body {
 .main div {
   background-color: #fafafa;
   border-radius: 10px;
-  box-shadow: 8px 8px 10px #c8c8c8, -8px -8px 10px #ffffff;
+  box-shadow: 8px 8px 8px #c8c8c8, -8px -8px 8px #ffffff;
   width: 80%;
   margin-top: 20px;
   padding: 30px;
