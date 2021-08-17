@@ -5,12 +5,213 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 body {
   background-color: #fbfbfb;
   font-family: poppins;
 }
+.merah {
+  background-image: linear-gradient(#f80000, #680404);
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.dirgahayu {
+  color: #fdfdfd;
+}
+.dirga {
+  display: none;
+}
+#typedjs {
+  margin-top: 1em;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  position: absolute;
+}
+.btn-next {
+  background: linear-gradient(90deg, #f80000 0%, #680404 97.42%);
+  border-radius: 26px;
+  width: 300px;
+  height: 54px;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 13em 0 1em 0;
+}
+.atten {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.atten .play {
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: inset 7px 7px 5px #e0e0e0, inset -7px -7px 5px #ffffff;
+  width: 80%;
+  height: 20em;
+  margin-top: 3em;
+  padding: 30px;
+  text-align: center;
+}
+.atten .lambang {
+  padding: 30px;
+  background: #f9f9f9;
+  box-shadow: inset 7px 7px 5px #e0e0e0, inset -7px -7px 5px #ffffff;
+  border-radius: 50%;
+  width: 30%;
+  height: 17em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.lambang img {
+  width: 150px;
+}
+.play h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.play p {
+  margin-top: 1em;
+  font-size: 1.3em;
+}
+.play button {
+  background: linear-gradient(90deg, #f80000 0%, #680404 97.42%);
+  color: #fdfdfd;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 50%;
+  height: 50px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+.main div {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #c8c8c8, -8px -8px 10px #ffffff;
+  width: 80%;
+  margin-top: 20px;
+  padding: 30px;
+}
+.text h2 {
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.text p {
+  margin-top: 15px;
+}
+.main .gambar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
+.main .gambar img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em 0;
+}
+.btn-selesai {
+  background: linear-gradient(90deg, #f80000 0%, #680404 97.42%);
+  color: #fdfdfd;
+  text-decoration: none;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1em;
+}
+.btn-finish button {
+  font-size: 1em;
+
+  width: 10em;
+}
+
+/* ========== thanks ============= */
+.thanks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.thanks h2 {
+  margin-top: 2em;
+}
+.card {
+  width: 80%;
+  background-color: #fbfbfb;
+  box-shadow: inset 6px 6px 12px #e2e2e2, inset -6px -6px 12px #ffffff;
+  padding: 30px;
+  margin: 2em 0;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+.card ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
+}
+.about {
+  text-align: center;
+  margin-top: 3em;
+  text-transform: uppercase;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.link a {
+  padding: 15px 20px;
+  border: 1px solid red;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.link a:hover {
+  transition: 2s;
+  background: linear-gradient(90deg, #f80000 0%, #680404 97.42%);
+  color: #fdfdfd;
+}
+/* ====================Mobile========================= */
 @media only screen and (max-width: 414px) {
+  .dirgahayu {
+    display: none;
+  }
   .merah {
     background-image: linear-gradient(#f80000, #680404);
     width: 100%;
@@ -24,7 +225,7 @@ body {
     color: #ff1d1d;
     margin: 0 20px;
   }
-  .text {
+  .dirga {
     margin-top: 20px;
   }
   .btn-next {
@@ -163,6 +364,8 @@ body {
     width: 100%;
     border-radius: 10px;
   }
+
+  /* ========Button Selesai=========== */
   .btn-finish {
     display: flex;
     justify-content: center;
@@ -183,5 +386,56 @@ body {
     font-size: 1em;
 
     width: 10em;
+  }
+
+  /* ========== thanks ============= */
+  .thanks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .thanks h2 {
+    margin-top: 2em;
+  }
+  .card {
+    width: 80%;
+    background-color: #fbfbfb;
+    box-shadow: inset 6px 6px 12px #e2e2e2, inset -6px -6px 12px #ffffff;
+    padding: 30px;
+    margin-top: 2em;
+    border-radius: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .card ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+  }
+  .about {
+    text-align: center;
+    margin-top: 3em;
+    text-transform: uppercase;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link a {
+    padding: 15px 20px;
+    border: 1px solid red;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+  .link a:active {
+    background: linear-gradient(90deg, #f80000 0%, #680404 97.42%);
+    color: #fdfdfd;
   }
 }
